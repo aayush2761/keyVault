@@ -1,0 +1,23 @@
+.md_navBar {
+    left: 0px;
+    position: fixed;
+    width: 350px;
+    height: 100vh;
+    background-color: #253237ff;
+    z-index: 1;
+}
+
+.us_primaryScreen {
+    width: calc(100% - 350px);
+    height: 100vh;
+    position:fixed;
+    top: 0px;
+    right: 0px;
+    padding-left: 350px;
+    overflow-y: scroll;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colorThree);
+}
